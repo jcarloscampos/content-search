@@ -1,0 +1,26 @@
+<p>
+	  La marca de coches <strong>Mercedes-Benz</strong> es una de las firmas automovilísticas más importantes del mundo. La ciudad alemana de Stuttgart es su sede y sus productos tienen un alcance global, con coches de corte premium que van desde los compactos como el Mercedes Clase A a grandes SUV como el Mercedes GLS y todoterrenos como el Mercedes Clase G y deportivos como el Mercedes-AMG GT. 
+
+<h2>Historia de la marca Mercedes</h2>
+<h4>¿A qué grupo pertenece Mercedes-Benz?</h4>
+
+<p>
+	Mercedes-Benz pertenece al grupo Daimler AG, un grupo en el que además de Mercedes-Benz nos encontramos con smart como marca de coches urbanos; Mercedes-Maybach, como división de coches de lujo; Mercedes-AMG como firma de coches deportivos o Mercedes-Benz Vans y Mercedes-Benz Trucks encargadas de crear las furgonetas y camiones de la marca. Además Daimler dispone de otras muchas marcas de camiones y autobuses e incluso una marca de servicios de movilidad, Mobility Services. 
+</p>
+
+<h2>Modelos históricos de Mercedes</h2>
+
+<p>
+	<strong>Mercedes 35 PS (1901):</strong>
+	 el modelo desarrollado en 1901 por Wilhelm Maybach y Paul Daimler para Emil Jellinek. Podemos considerarlo como el primer paso del automovilimso moderno, alejado ya de los carruajes con motor.
+</p>
+
+<p>
+	<strong>Mercedes-Benz SSK (1928): :</strong>
+	 “Super Sport Kurz” (Super Deportivo Corto), eso es lo que significa la denominación de este modelo, uno de los primeros deportivos de la marca y el último modelo de Mercedes-Benz diseñado por Ferdinand Porsche. 
+</p>
+
+<p>
+	<strong>Mercedes-Benz 300 S (1951): </strong>
+	 El Mercedes W188 es un deportivo lujoso construido por Mercedes durante los años 50 con carrocería cabrio y coupé (SC). Estaba equipado con un motor de 6 cilindros en línea de 3 litros de cubicaje y 150 caballos. 
+</p>

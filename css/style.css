@@ -1,0 +1,86 @@
+body{
+  color: #666;
+  background: #f0f0f0;
+}
+.center{
+  text-align: center;
+}
+.encabezado{
+	width: 100%;
+	background: #272c25;
+}
+.list-encabezado{
+	margin: 0;
+	padding: .5rem 0;
+}
+.list-encabezado li{
+	list-style: none;
+	display: inline;
+	
+}
+.list-encabezado li a{
+	font-family: Arial;
+	font-size: .8rem;
+	text-decoration: none;
+	color: #999;
+	padding: .7rem;
+}
+.list-encabezado li .active{
+	color: #fff;
+}
+.list-encabezado li a:hover{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap{
+	height: 100vh;
+}
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
+	border-radius: 0 .5rem .5rem 0;
+}
+.header-content{
+  	display: flex;
+	justify-content: center;
+	padding: 1rem 0;
+}
+.contenido{
+	display: flex;
+	align-items: flex-end;
+}
+.contenido img{
+	
+}
+.desc h1{
+	font-size: 4rem;
+	text-align: left;
+	margin: 0;
+}
+.desc h1 span{
+	color:red;
+}
+.desc p{
+	font-size: .6rem;
+	margin: 0;
+}
+#resultados p{
+	padding: 0;
+	margin: 0;
+}
+.articulo{
+	margin-bottom: 1rem;
+}
+.url{
+	text-decoration: underline;
+	font-size: .9rem;
+}
