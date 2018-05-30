@@ -8,7 +8,7 @@ $(function(){
 		var envio = $('#search').val();
 		//agregar elementon en el div resultados antes que llege la consulta
 		$('#logo').html('<img src="images/browser.svg" width="50px" alt="Solquick" title="Solquick" />');
-		$('#resultados').html('<h5><img src="../images/load.gif" width="30" alt="" >Buscando</h5>'); 
+		// $('#resultados').html('<h5><img src="../images/load.gif" width="30" alt="" >Buscando</h5>'); 
 		if(e.which == 13){ 
 		$.ajax({
 			type: 'POST',

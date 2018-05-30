@@ -1,5 +1,4 @@
 <?php
-	require_once('../gestion/conexion.php');
 	require_once('busqueda_vectorial.php');
 	require_once('busqueda_probabilistico.php');
 
@@ -14,6 +13,8 @@
 
 	if(isset($_POST['search'])){
 		$search = strtolower($_POST['search']);
+		
+		acutualizar($search);
 		main(query_define($search));
 	}
 
@@ -146,4 +147,20 @@
 		}
 	}
 
+	function acutualizar($arg){
+		require_once('../gestion/conexion.php');
+		$consulta = "SELECT * FROM autocomplete WHERE name LIKE '".$arg."'";
+		$resultado = mysqli_query($conexion, $consulta);
+
+		if(mysqli_num_rows($resultado) > 0){
+			$row = mysqli_fetch_assoc($resultado);
+  			$id = $row["id"];
+ 		
+ 			$update = "UPDATE autocomplete SET visited = visited+1 WHERE id = ".$id."";
+			$update = $conexion -> query($update) or die("No se ha podido actulizar las visitas");
+		}else{
+			$insert = "INSERT INTO autocomplete(name, visited) VALUES ('$arg', 1)";
+			$insert = $conexion -> query($insert) or die("No se ha podido insertar nuevo registro");
+		}
+	}
 ?>
